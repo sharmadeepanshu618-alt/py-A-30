@@ -1,0 +1,8 @@
+import greetings as greet,calculator as cal
+
+print(greet.greetings())
+print(cal.add(10,60))
+def add(a,b):
+    return a+b
+def greetings():
+    return "hello hi"
